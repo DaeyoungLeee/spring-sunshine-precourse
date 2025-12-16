@@ -27,7 +27,7 @@ public class AIFunctionConfiguration {
     }
 
     @Bean
-    @Tool(description = "날씨 설명을 날씨 코드로 가져옵니다.")
+    @Tool(description = "Convert weather code to description.")
     public Function<WeatherCodeReq, WeatherCodeResp> convertWeatherCodeToDescription() {
         return request -> {
             log.info("날씨 코드 {}", request.code);
