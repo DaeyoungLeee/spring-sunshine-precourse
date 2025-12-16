@@ -1,1 +1,1 @@
-rootProject.name = "spring-sunshine"
+rootProject.name = "spring-sunshine-precourse"
